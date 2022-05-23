@@ -1,0 +1,12 @@
+s = {1,2,'shruti',4,5}
+s.add(22)
+s.add('arya')
+print(s)
+s.remove(22)
+print(s)
+s.discard(33)
+print(s)
+s.discard('arya')
+print(s)
+s1 = s.copy()
+print(s1)
